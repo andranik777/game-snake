@@ -127,3 +127,5 @@ let game = setInterval(drawGame, 150)
 
 
 // https://developer.mozilla.org/fr/docs/Web/API/CanvasRenderingContext2D/drawImage
+
+// https://developer.mozilla.org/fr/docs/Web/API/CanvasRenderingContext2D/fillText
