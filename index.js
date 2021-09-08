@@ -34,7 +34,8 @@ const messageGameOver = () => {
 
 const replay = () => {
     b = document.createElement("div")
-    b.innerHTML = "<button style='position: absolute; top: 360px; width:100px; height: 30px' onclick ='document.location.reload()'>REPLAY</button>"
+    b.classList.add("button-replay")
+    b.innerHTML = "<button style='width:100px; onclick ='document.location.reload()'>REPLAY</button>"
     document.querySelector("#main").appendChild(b)
 }
 let dir

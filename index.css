@@ -2,3 +2,10 @@ canvas {
     display: block;
     margin: 0 auto;
 }
+
+.button-replay {
+    position: absolute;
+    left: 46%;
+    top: 70%;
+}
+
